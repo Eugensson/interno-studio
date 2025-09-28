@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-primary: "DM Serif Display", serif;
+  --font-secondary: "Jost", sans-serif;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1200px;
+
+  --color-primary: #292f36;
+  --color-primary-hover: #343e4a;
+  --color-secondary: #4d5053;
+  --color-accent: #cda274;
+  --color-accent-hover: #b88c5d;
+  --color-accent-secondary: #f4f0ec;
+
+  --background-image-hero: url("/images/hero/bg.jpg");
+  --background-image-article: url("/images/banner_1.jpg");
+  --background-image-projects: url("/images/banner_2.jpg");
+  --background-image-pricing: url("/images/banner_3.jpg");
+  --background-image-project: url("/images/banner_4.jpg");
+  --background-image-services: url("/images/banner_5.jpg");
+  --background-image-service: url("/images/banner_6.jpg");
+  --background-image-blog: url("/images/banner_7.jpg");
+  --background-image-team: url("/images/banner_8.jpg");
+  --background-image-employee: url("/images/banner_9.jpg");
+  --background-image-contact: url("/images/banner_10.jpg");
+  --background-image-faq: url("/images/banner_11.jpg");
+  --background-image-login: url("/images/banner_13.jpg");
+  --background-image-about: url("/images/banner_15.jpg");
+  --background-image-grid: url("/images/grid.png");
+
+  --container-padding: 15px;
+}
+
+body {
+  @apply font-secondary text-secondary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary text-primary tracking-wide;
+}
+
+.h1 {
+  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-none;
+}
+
+.h2 {
+  @apply text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight;
+}
+
+.h3 {
+  @apply text-xl;
+}
+
+.h4 {
+  @apply text-xl;
+}
+
+.btn {
+  @apply h-20 px-8 transition-colors duration-300 text-white rounded-md flex items-center gap-x-2;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-hover;
+}
+
+.btn-accent {
+  @apply bg-accent hover:bg-accent-hover;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  @apply bg-accent rounded-none size-2;
+}
