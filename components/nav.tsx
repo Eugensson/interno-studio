@@ -41,7 +41,7 @@ export const Nav = () => {
               delay={50}
               offset={-100}
               activeClass="text-accent"
-              className="text-primary hover:text-accent cursor-pointer"
+              className="text-primary text-lg hover:text-accent cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
               {name}

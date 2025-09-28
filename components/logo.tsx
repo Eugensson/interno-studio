@@ -11,10 +11,10 @@ export const Logo = () => {
       duration={500}
       delay={50}
       offset={-100}
-      className="flex items-center gap-x-2 text-2xl text-primary font-primary cursor-pointer"
+      className="flex items-center gap-x-2 text-4xl text-primary font-primary cursor-pointer"
     >
-      <Image src="/icons/logo.svg" alt="Logo" width={50} height={50} />
-      IntDesign
+      <Image src="/icons/logo.svg" alt="Logo" width={40} height={40} />
+      Interno
     </ScrollLink>
   );
 };
