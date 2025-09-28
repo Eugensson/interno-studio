@@ -31,7 +31,7 @@ export const Nav = () => {
             : "h-0 p-0"
         )}
       >
-        {navLinks.map(({ name, path }) => (
+        {navLinks.map(({ name, path, offset }) => (
           <li key={name}>
             <ScrollLink
               spy
@@ -39,9 +39,9 @@ export const Nav = () => {
               to={path}
               duration={500}
               delay={50}
-              offset={-100}
-              activeClass="text-accent"
+              offset={offset}
               className="text-primary text-lg hover:text-accent cursor-pointer"
+              activeClass="active"
               onClick={() => setIsOpen(false)}
             >
               {name}

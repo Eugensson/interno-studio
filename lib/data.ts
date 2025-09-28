@@ -1,12 +1,12 @@
 import { RiCompasses2Line, RiMagicLine, RiToolsLine } from "react-icons/ri";
 
 export const navLinks = [
-  { name: "Home", path: "home" },
-  { name: "About", path: "about" },
-  { name: "Testimonials", path: "testimonials" },
-  { name: "Our Work", path: "projects" },
-  { name: "News", path: "blog" },
-  { name: "Contact", path: "contact" },
+  { name: "Home", path: "home", offset: -100 },
+  { name: "About", path: "about", offset: 0 },
+  { name: "Testimonials", path: "testimonials", offset: 0 },
+  { name: "Our Work", path: "projects", offset: 0 },
+  { name: "News", path: "blog", offset: 0 },
+  { name: "Contact", path: "contact", offset: 0 },
 ];
 
 export const stepList = [

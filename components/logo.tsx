@@ -11,10 +11,9 @@ export const Logo = () => {
       duration={500}
       delay={50}
       offset={-100}
-      className="flex items-center gap-x-2 text-4xl text-primary font-primary cursor-pointer"
+      className="cursor-pointer"
     >
-      <Image src="/icons/logo.svg" alt="Logo" width={40} height={40} />
-      Interno
+      <Image src="/assets/logo.svg" alt="Logo" width={150} height={40} />
     </ScrollLink>
   );
 };
