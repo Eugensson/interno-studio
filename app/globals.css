@@ -32,12 +32,10 @@
   --background-image-login: url("/images/banner_13.jpg");
   --background-image-about: url("/images/banner_15.jpg");
   --background-image-grid: url("/images/grid.png");
-
-  --container-padding: 15px;
 }
 
 body {
-  @apply font-secondary text-secondary;
+  @apply font-secondary text-secondary bg-gray-100;
 }
 
 h1,
@@ -46,27 +44,27 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-primary text-primary tracking-wide;
+  @apply font-primary text-primary;
+}
+
+.container {
+  @apply px-4 w-full max-w-300 mx-auto;
 }
 
 .h1 {
-  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-none;
+  @apply text-6xl lg:text-[84px] leading-none;
 }
 
 .h2 {
-  @apply text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight;
+  @apply text-[50px] leading-tight;
 }
 
 .h3 {
-  @apply text-xl;
-}
-
-.h4 {
-  @apply text-xl;
+  @apply text-[25px];
 }
 
 .btn {
-  @apply h-20 px-8 transition-colors duration-300 text-white rounded-md flex items-center gap-x-2;
+  @apply h-18.75 px-8 flex items-center gap-2 text-white rounded-[18px] transition-colors duration-300;
 }
 
 .btn-primary {

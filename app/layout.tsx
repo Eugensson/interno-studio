@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { DM_Serif_Display, Jost } from "next/font/google";
 
+import { Header } from "@/components/header";
+
 import "./globals.css";
 
 const dmSerifDisplay = DM_Serif_Display({
@@ -35,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${dmSerifDisplay.variable} ${jost.variable} antialiased`}
       >
+        <Header />
         {children}
         <Analytics />
       </body>
