@@ -10,7 +10,7 @@ export const About = () => {
       <div className="container">
         <div className="flex flex-col xl:flex-row items-center justify-between gap-8 xl:gap-18.5 text-center xl:text-left">
           <div className="flex-1 flex flex-col items-center xl:items-start gap-8 order-2 xl:order-none max-w-xl xl:max-w-102.5">
-            <h2 className="h2">
+            <h2 className="h2 text-primary">
               We Create The Art Of Stylish Living Stylishly
             </h2>
             <p className="md:text-lg">

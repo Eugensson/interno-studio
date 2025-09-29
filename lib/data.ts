@@ -1,4 +1,12 @@
-import { RiCompasses2Line, RiMagicLine, RiToolsLine } from "react-icons/ri";
+import {
+  RiCompasses2Line,
+  RiFacebookFill,
+  RiInstagramFill,
+  RiLinkedinFill,
+  RiMagicLine,
+  RiToolsLine,
+  RiTwitterXFill,
+} from "react-icons/ri";
 
 export const navLinks = [
   { name: "Home", path: "home", offset: -100 },
@@ -134,5 +142,16 @@ export const newsData = [
     title: "Best For Any Office & Business Interior Solution",
     date: "07 July, 2025",
     href: "/",
+  },
+];
+
+export const socialsData = [
+  { label: "Facebook", icon: RiFacebookFill, href: "https://www.facebook.com" },
+  { label: "TwitterX", icon: RiTwitterXFill, href: "https://www.x.com" },
+  { label: "LinkedIn", icon: RiLinkedinFill, href: "https://www.linkedin.com" },
+  {
+    label: "Instagram",
+    icon: RiInstagramFill,
+    href: "https://www.instagram.com",
   },
 ];

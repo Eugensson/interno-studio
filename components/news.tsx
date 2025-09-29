@@ -8,7 +8,7 @@ export const News = () => {
   return (
     <section id="blog" className="section">
       <div className="container">
-        <h2 className="mb-8 h2 text-center">Articles & News</h2>
+        <h2 className="mb-8 h2 text-center text-primary">Articles & News</h2>
         <p className="mb-8 md:text-lg text-center max-w-200 mx-auto">
           Stay updated with the latest trends in interior design, architecture,
           and home improvement. Our articles provide expert tips, innovative

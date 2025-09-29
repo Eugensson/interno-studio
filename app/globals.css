@@ -51,7 +51,7 @@ h6 {
 }
 
 .h2 {
-  @apply text-[50px] leading-tight text-primary;
+  @apply text-[50px] leading-tight;
 }
 
 .h3 {
@@ -59,7 +59,7 @@ h6 {
 }
 
 .btn {
-  @apply h-18.75 px-8 flex items-center gap-2 text-white rounded-[18px] transition-colors duration-300;
+  @apply h-18.75 px-8 flex items-center gap-2 text-white rounded-[18px] transition-colors duration-300 cursor-pointer;
 }
 
 .btn-primary {

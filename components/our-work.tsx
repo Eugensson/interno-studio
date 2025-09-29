@@ -7,7 +7,9 @@ export const OurWork = () => {
   return (
     <section className="section" id="projects">
       <div className="container">
-        <h2 className="mb-8 h2 text-center">Follow Our Projects</h2>
+        <h2 className="mb-8 h2 text-center text-primary">
+          Follow Our Projects
+        </h2>
         <p className="mb-8 md:text-lg text-center max-w-200 mx-auto">
           Discover our interior design projects where style meets comfort. Each
           space is thoughtfully planned to reflect modern trends, enhance

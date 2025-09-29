@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { DM_Serif_Display, Jost } from "next/font/google";
 
 import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 
 import "./globals.css";
 
@@ -38,7 +39,11 @@ export default function RootLayout({
         className={`${dmSerifDisplay.variable} ${jost.variable} antialiased`}
       >
         <Header />
-        {children}
+        <main className="w-full max-w-480 mx-auto bg-white overflow-hidden">
+          <div className="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10" />
+          {children}
+        </main>
+        <Footer />
         <Analytics />
       </body>
     </html>
