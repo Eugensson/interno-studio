@@ -35,7 +35,7 @@ h6 {
 }
 
 .container {
-  @apply px-4 xl:px-0 w-full max-w-300 mx-auto;
+  @apply px-4 w-full max-w-300 mx-auto;
 }
 
 .active {
@@ -68,5 +68,5 @@ h6 {
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  @apply bg-accent rounded-none size-2;
+  @apply bg-accent rounded-full size-2;
 }

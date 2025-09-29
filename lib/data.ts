@@ -35,3 +35,38 @@ export const stepList = [
     href: "/",
   },
 ];
+
+export const testimonialList = [
+  {
+    id: "1",
+    name: "Emily Carter",
+    location: "New York, USA",
+    image: "/assets/testimonial/01.png",
+    message:
+      "The team exceeded expectations, creating a stylish and cozy apartment. Their creativity, detail, and professionalism truly impressed us all.",
+  },
+  {
+    id: "2",
+    name: "Jane Robinson",
+    location: "Toronto, Canada",
+    image: "/assets/testimonial/02.png",
+    message:
+      "Working with this studio was a pleasure. Their modern approach made our home inspiring, functional, and stylish. We highly recommend them!",
+  },
+  {
+    id: "3",
+    name: "Daniel Hughes",
+    location: "London, UK",
+    image: "/assets/testimonial/03.png",
+    message:
+      "The designers showed real professionalism, turning our house into a modern, welcoming space. Every detail feels elegant, stylish, and comfortable.",
+  },
+  {
+    id: "4",
+    name: "Sophia Mitchell",
+    location: "Sydney, Australia",
+    image: "/assets/testimonial/04.png",
+    message:
+      "This studio transformed our home into a dream interior. Their ideas combined style and comfort, leaving us with a modern, cozy, and functional space.",
+  },
+];

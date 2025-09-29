@@ -1,6 +1,7 @@
 import { Hero } from "@/components/hero";
 import { Steps } from "@/components/steps";
 import { About } from "@/components/about";
+import { Testimonials } from "@/components/testimonials";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Steps />
       <About />
+      <Testimonials />
       <div className="h-1000" />
     </main>
   );
