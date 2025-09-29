@@ -80,11 +80,11 @@ export const testimonialList = [
 ];
 
 export const brandList = [
-  { label: "ModernHome", image: "/assets/brands/01.svg" },
-  { label: "Style Vintage Interior", image: "/assets/brands/02.svg" },
-  { label: "Brand", image: "/assets/brands/03.svg" },
-  { label: "Nature Home", image: "/assets/brands/04.svg" },
-  { label: "Classic Design Studio", image: "/assets/brands/05.svg" },
+  { id: "1", label: "ModernHome", image: "/assets/brands/01.svg" },
+  { id: "2", label: "Style Vintage Interior", image: "/assets/brands/02.svg" },
+  { id: "3", label: "Brand", image: "/assets/brands/03.svg" },
+  { id: "4", label: "Nature Home", image: "/assets/brands/04.svg" },
+  { id: "5", label: "Classic Design Studio", image: "/assets/brands/05.svg" },
 ];
 
 export const projectList = [

@@ -1,14 +1,22 @@
 "use client";
 
 import CountUp from "react-countup";
+import { motion } from "framer-motion";
 
 import { statsData } from "@/lib/data";
+import { fadeIn } from "@/lib/variants";
 
 export const Stats = () => {
   return (
     <section className="section bg-accent-secondary py-20 xl:py-37.5">
       <div className="container">
-        <ul className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+        <motion.ul
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.2 }}
+          className="grid grid-cols-1 lg:grid-cols-4 gap-12"
+        >
           {statsData.map((stat, index) => (
             <li
               key={stat.id}
@@ -27,7 +35,7 @@ export const Stats = () => {
               <p>{stat.label}</p>
             </li>
           ))}
-        </ul>
+        </motion.ul>
       </div>
     </section>
   );

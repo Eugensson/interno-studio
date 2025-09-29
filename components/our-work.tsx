@@ -1,23 +1,45 @@
+"use client";
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { RiArrowRightSLine } from "react-icons/ri";
 
+import { fadeIn } from "@/lib/variants";
 import { projectList } from "@/lib/data";
 
 export const OurWork = () => {
   return (
     <section className="section" id="projects">
       <div className="container">
-        <h2 className="mb-8 h2 text-center text-primary">
+        <motion.h2
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.2 }}
+          className="mb-8 h2 text-center text-primary"
+        >
           Follow Our Projects
-        </h2>
-        <p className="mb-8 md:text-lg text-center max-w-200 mx-auto">
+        </motion.h2>
+        <motion.p
+          variants={fadeIn("up", 0.4)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.2 }}
+          className="mb-8 md:text-lg text-center max-w-200 mx-auto"
+        >
           Discover our interior design projects where style meets comfort. Each
           space is thoughtfully planned to reflect modern trends, enhance
           functionality, and create inspiring, practical living environments
           that feel stylish and welcoming.
-        </p>
+        </motion.p>
 
-        <ul className="grid grid-cols-1 lg:grid-cols-2 gap-x-26 gap-y-14">
+        <motion.ul
+          variants={fadeIn("up", 0.6)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.2 }}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-x-26 gap-y-14"
+        >
           {projectList.map(({ id, title, category, image }) => (
             <li key={id} className="w-full h-full max-w-137 mx-auto">
               <Image
@@ -41,7 +63,7 @@ export const OurWork = () => {
               </div>
             </li>
           ))}
-        </ul>
+        </motion.ul>
       </div>
     </section>
   );

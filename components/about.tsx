@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { RiPhoneFill } from "react-icons/ri";
 
+import { fadeIn } from "@/lib/variants";
 import aboutImg from "@/public/assets/about/img.png";
 
 export const About = () => {
@@ -9,7 +13,13 @@ export const About = () => {
     <section id="about" className="section">
       <div className="container">
         <div className="flex flex-col xl:flex-row items-center justify-between gap-8 xl:gap-18.5 text-center xl:text-left">
-          <div className="flex-1 flex flex-col items-center xl:items-start gap-8 order-2 xl:order-none max-w-xl xl:max-w-102.5">
+          <motion.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.2 }}
+            className="flex-1 flex flex-col items-center xl:items-start gap-8 order-2 xl:order-none max-w-xl xl:max-w-102.5"
+          >
             <h2 className="h2 text-primary">
               We Create The Art Of Stylish Living Stylishly
             </h2>
@@ -31,10 +41,16 @@ export const About = () => {
               Request a Free Quote
               <ArrowRight className="text-accent" />
             </button>
-          </div>
-          <div className="order-1 xl:order-none max-w-113.25 xl:max-w-none mx-auto xl:mx-0">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("left", 0.2)}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.2 }}
+            className="order-1 xl:order-none max-w-113.25 xl:max-w-none mx-auto xl:mx-0"
+          >
             <Image src={aboutImg} alt="Interior design image" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
