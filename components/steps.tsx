@@ -5,7 +5,7 @@ import { stepList } from "@/lib/data";
 
 export const Steps = () => {
   return (
-    <section className="mt-20 zl:mt-50 relative z-20">
+    <section className="section">
       <div className="container">
         <ul className="grid grid-cols-1 xl:grid-cols-3 gap-12">
           {stepList.map(({ id, icon: Icon, title, description, href }) => (

@@ -70,3 +70,38 @@ export const testimonialList = [
       "This studio transformed our home into a dream interior. Their ideas combined style and comfort, leaving us with a modern, cozy, and functional space.",
   },
 ];
+
+export const brandList = [
+  { label: "ModernHome", image: "/assets/brands/01.svg" },
+  { label: "Style Vintage Interior", image: "/assets/brands/02.svg" },
+  { label: "Brand", image: "/assets/brands/03.svg" },
+  { label: "Nature Home", image: "/assets/brands/04.svg" },
+  { label: "Classic Design Studio", image: "/assets/brands/05.svg" },
+];
+
+export const projectList = [
+  {
+    id: "1",
+    title: "Modern Kitchen",
+    category: "Decor/Architecture",
+    image: "/assets/work/01.png",
+  },
+  {
+    id: "2",
+    title: "Modern Living Room 01",
+    category: "Decor/Architecture",
+    image: "/assets/work/02.png",
+  },
+  {
+    id: "3",
+    title: "Modern Living Room 02",
+    category: "Decor/Architecture",
+    image: "/assets/work/03.png",
+  },
+  {
+    id: "4",
+    title: "Modern Living Room 03",
+    category: "Decor/Architecture",
+    image: "/assets/work/04.png",
+  },
+];

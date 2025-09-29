@@ -6,7 +6,7 @@ import aboutImg from "@/public/assets/about/img.png";
 
 export const About = () => {
   return (
-    <section id="about" className="mt-20 xl:mt-50 relative z-20">
+    <section id="about" className="section">
       <div className="container">
         <div className="flex flex-col xl:flex-row items-center justify-between gap-8 xl:gap-18.5 text-center xl:text-left">
           <div className="flex-1 flex flex-col items-center xl:items-start gap-8 order-2 xl:order-none max-w-xl xl:max-w-102.5">
