@@ -105,3 +105,34 @@ export const projectList = [
     image: "/assets/work/04.png",
   },
 ];
+
+export const statsData = [
+  { id: "1", value: 12, label: "Years of Experience" },
+  { id: "2", value: 85, label: "Projects Completed" },
+  { id: "3", value: 15, label: "Active Projects" },
+  { id: "4", value: 95, label: "Happy Customers" },
+];
+
+export const newsData = [
+  {
+    id: 1,
+    image: "/assets/news/01.png",
+    title: "Let’s Get Solution For Building Construction Work",
+    date: "15 May, 2025",
+    href: "/",
+  },
+  {
+    id: 2,
+    image: "/assets/news/02.png",
+    title: "Low Cost Latest Invented Interior Designing Ideas",
+    date: "21 June, 2025",
+    href: "/",
+  },
+  {
+    id: 3,
+    image: "/assets/news/03.png",
+    title: "Best For Any Office & Business Interior Solution",
+    date: "07 July, 2025",
+    href: "/",
+  },
+];

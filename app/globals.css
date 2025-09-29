@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-primary text-primary;
+  @apply font-primary;
 }
 
 .container {
@@ -39,7 +39,7 @@ h6 {
 }
 
 .section {
-  @apply mt-20 xl:mt-50 relative z-20;
+  @apply mt-20 xl:mt-40 relative z-20;
 }
 
 .active {
@@ -51,11 +51,11 @@ h6 {
 }
 
 .h2 {
-  @apply text-[50px] leading-tight;
+  @apply text-[50px] leading-tight text-primary;
 }
 
 .h3 {
-  @apply text-[25px];
+  @apply text-[25px] text-primary;
 }
 
 .btn {

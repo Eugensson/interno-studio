@@ -8,7 +8,7 @@ export const Hero = () => {
     >
       <div className="container h-full flex items-center justify-center xl:justify-start">
         <div className="w-144 flex flex-col items-center lg:items-start text-center xl:text-left">
-          <h1 className="h1 mb-8">
+          <h1 className="h1 mb-8 text-primary">
             Interior Design That Reflects Your Lifestyle
           </h1>
           <p className="mb-8 md:text-lg">

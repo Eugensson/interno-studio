@@ -4,7 +4,7 @@ import { brandList } from "@/lib/data";
 
 export const Brands = () => {
   return (
-    <section className="mt-20 xl:mt-40 relative z-20">
+    <section className="section">
       <ul className="container flex flex-col xl:flex-row items-center justify-between gap-12">
         {brandList.map(({ label, image }) => (
           <li key={label}>

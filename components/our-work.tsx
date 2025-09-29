@@ -5,7 +5,7 @@ import { projectList } from "@/lib/data";
 
 export const OurWork = () => {
   return (
-    <section className="mt-20 xl:mt-40 relative z-20" id="projects">
+    <section className="section" id="projects">
       <div className="container">
         <h2 className="mb-8 h2 text-center">Follow Our Projects</h2>
         <p className="mb-8 md:text-lg text-center max-w-200 mx-auto">
