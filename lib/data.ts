@@ -10,11 +10,11 @@ import {
 
 export const navLinks = [
   { name: "Home", path: "home", offset: -100 },
-  { name: "About", path: "about", offset: 0 },
-  { name: "Testimonials", path: "testimonials", offset: 0 },
-  { name: "Our Work", path: "projects", offset: 0 },
-  { name: "News", path: "blog", offset: 0 },
-  { name: "Contact", path: "contact", offset: 0 },
+  { name: "About", path: "about", offset: -150 },
+  { name: "Testimonials", path: "testimonials", offset: -120 },
+  { name: "Our Work", path: "projects", offset: -120 },
+  { name: "News", path: "blog", offset: -150 },
+  { name: "Contact", path: "contact", offset: -120 },
 ];
 
 export const stepList = [
